@@ -1,0 +1,19 @@
+{
+  "title": "SecureFox",
+  "name": "securefox",
+  "version": "0.0.1",
+  "description": "Security and privacy interface for Firefox",
+  "main": "index.js",
+  "author": "Jonathan Kingston",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MPL 2.0",
+  "scripts": {
+    "start": "FIREFOX_INSTANCE=$(which firefox); jpm run -b $FIREFOX_INSTANCE;"
+  },
+  "keywords": [
+    "jetpack"
+  ]
+}
