@@ -11,7 +11,8 @@
   },
   "license": "MPL 2.0",
   "scripts": {
-    "start": "FIREFOX_INSTANCE=$(which firefox); jpm run -b $FIREFOX_INSTANCE;"
+    "start": "FIREFOX_INSTANCE=$(which firefox); jpm run -b $FIREFOX_INSTANCE;",
+    "pref-explain": "node prefExplain.js"
   },
   "keywords": [
     "jetpack"
