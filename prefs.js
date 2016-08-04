@@ -2,7 +2,7 @@ const DEFAULT_VAL = Symbol();
 module.exports = {
   'default': DEFAULT_VAL,
   'prefs': {
-    'securefox.level': [
+    'paranoidpanda.level': [
       1,
       2,
       3

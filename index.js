@@ -13,8 +13,8 @@ const prefService = Cc["@mozilla.org/preferences-service;1"]
                     .getService(Ci.nsIPrefService);
 
 const button = new ToggleButton({
-  id: 'secure-fox',
-  label: 'SecureFox',
+  id: 'paranoid-panda',
+  label: 'ParanoidPanda',
   icon: {
     "16": "./icon-16.png",
     "32": "./icon-32.png",
@@ -80,7 +80,7 @@ function setup() {
     contentURL: self.data.url('./popover/index.html'),
     contentScriptFile: self.data.url('./popover/script.js')
   });
-  const level = prefs.get('securefox.level');
+  const level = prefs.get('paranoidpanda.level');
   panel.port.emit("levelchange", level || 1);
 
   core.getActiveView(panel).setAttribute('tooltip', 'aHTMLTooltip');

@@ -1,4 +1,4 @@
-#SecureFox
+#ParanoidPanda
 Security and privacy interface for Firefox
 
 ## Prerequisites

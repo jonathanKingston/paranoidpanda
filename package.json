@@ -1,6 +1,6 @@
 {
-  "title": "SecureFox",
-  "name": "securefox",
+  "title": "ParanoidPanda",
+  "name": "paranoidpanda",
   "version": "0.0.1",
   "description": "Security and privacy interface for Firefox",
   "main": "index.js",
